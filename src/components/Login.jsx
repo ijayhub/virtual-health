@@ -127,7 +127,7 @@ const Login = () => {
 			</div>
 			<div className='hidden lg:block'>
 				<img
-					src='../../src/assets/virtual-cover.jpg'
+					src='../assets/virtual-cover.jpg'
 					alt='virtual care'
 					className='h-screen'
 				/>

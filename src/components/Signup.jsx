@@ -68,7 +68,7 @@ const Signup = () => {
 		<div className='grid grid-cols-1 md:grid-cols-2'>
 			<div className='hidden lg:block'>
 				<img
-					src='../../src/assets/virtual-cover.jpg'
+					src='../assets/virtual-cover.jpg'
 					alt='virtual care'
 					className='h-screen'
 				/>
