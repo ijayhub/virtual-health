@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Pirata+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+/* ......................................................formSignup..................... */
+.accountCreation{
+  font-family: 'Pirata One', cursive;
+  @apply  text-lg lg:text-4xl font-extrabold  text-center  pt-8 lg:pt-20 mb-8
+}
+.label{
+    font-family: 'Pirata One', cursive;
+    font-size: 16px;
+    
+}
+.input{
+    @apply border-b-2 border-indigo-500 p-1  outline-none
+  }
+.regBtn{
+  @apply bg-blue-700 text-white label p-1 rounded-md lg:rounded-3xl btnSignup cursor-pointer
+}
+  /* ..........................signup lines...................... */
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 2px;
+  width: 200px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 2px;
+  width: 200px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.btnSignup{
+  width:300px;
+}
+/* ..................................nav............................. */
+.navbar{
+	@apply fixed -left-full bg-blue-200 bg-opacity-80 transition duration-200 lg:relative lg:left-0 flex justify-around items-center text-black;
+}
+.navbar.open{
+	@apply left-0  bg-blue-200 bg-opacity-80 text-black pr-10  w-2/3 z-30 h-4/5 flex-col-reverse lg:flex-row items-center shadow-2xl lg:w-auto lg:z-auto lg:h-auto lg:px-0 lg:pt-0 lg:shadow-none px-5
+}
+.nav{
+  @apply max-w-5xl mx-auto flex items-center justify-between 
+}
+.headerNav{
+  font-family: 'Pirata One', cursive;
+  @apply text-2xl lg:text-5xl
+}
+.headerCare{
+  @apply font-bold lg:text-2xl mr-8 drop-shadow-xl hover:text-blue-700 
+}
+.navLink{
+  @apply text-black mr-6 font-bold active:text-green-600
+}
+/* ..............................................home............................... */
+.hero{
+  background-image: url('../src/assets/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  @apply flex flex-col items-center justify-center  mt-9 lg:mt-0
+}
+.homeBtn{
+  width:30%;
+  @apply p-1 bg-blue-500 text-white rounded-lg font-bold active:bg-green-500
+}
+/* .....................................notification style.................................. */
+.swal-text {
+  background-color: skyblue;
+  padding: 17px;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  @apply text-black font-bold
+}
+/* .....................................book................................... */
+.bookBtn{
+  @apply bg-blue-500 text-white px-2 py-1 hover:bg-red-700 rounded-xl font-bold border-none outline-none;
+}
+.btnBook{
+  @apply flex items-center justify-center
+} 
+/* .....................................footer............................................... */
+.footerContainer {
+  font-family: 'Pirata One', cursive;
+  @apply text-2xl lg:text-5xl flex items-center
+
+}
+
+/* ...................................small screen(responsivness)................................. */
+@media only screen and (max-width:600px){
+
+  .label{
+    font-size: 12px;
+  }
+
+.btnSignup{
+    width:100px;
+  }
+.hr-lines:before{
+    width: 100px;
+  }
+
+.hr-lines:after{
+    width: 100px;
+  }
+.homeBtn{
+    width:60%;
+    @apply  rounded-full 
+  }
+  .navLink{
+    font-size:14px;
+  }
+  .btnBook{
+    font-size:12px
+  }
+  .footerLinks{
+    font-size:12px;
+  }
+ 
+}
+
+
+
+
