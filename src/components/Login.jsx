@@ -105,7 +105,7 @@ const Login = () => {
 							value='Login Now'
 						/>
 					</div>
-					
+
 					<h2 className='hr-lines label'>Or Sign in with</h2>
 
 					<div className='flex justify-center flex-center mb-3'>
@@ -127,7 +127,7 @@ const Login = () => {
 			</div>
 			<div className='hidden lg:block'>
 				<img
-					src='../assets/virtual-cover.jpg'
+					src='../src/assets/virtual-cover.jpg'
 					alt='virtual care'
 					className='h-screen'
 				/>
