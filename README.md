@@ -1,7 +1,7 @@
 
 <div id="top"></div>
 <div align="center">
-    <img src="./src/assets/virtual-acct.png">
+    <img src="./src/img/virtual-acct.png">
 </div>
 
 # Appointment Booking System for a virtual care website 
