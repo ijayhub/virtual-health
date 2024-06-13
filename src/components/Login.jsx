@@ -6,6 +6,7 @@ import swal from "sweetalert"
 import { useForm } from "react-hook-form";
 import { schema } from "../../validation/LoginValidation.js";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { virtual } from "../assets/virtual-cover.jpg"
 
 
 const Login = () => {
@@ -127,7 +128,7 @@ const Login = () => {
 			</div>
 			<div className='hidden lg:block'>
 				<img
-					src='../src/assets/virtual-cover.jpg'
+					src={virtual}
 					alt='virtual care'
 					className='h-screen'
 				/>

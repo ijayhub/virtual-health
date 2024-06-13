@@ -6,6 +6,7 @@ import { createUserWithEmailAndPassword,signInWithPopup } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import swal from 'sweetalert';
 import { useForm } from "react-hook-form";
+import { virtual } from "../assets/virtual-cover.jpg"
 
 
 const Signup = () => {
@@ -68,7 +69,7 @@ const Signup = () => {
 		<div className='grid grid-cols-1 md:grid-cols-2'>
 			<div className='hidden lg:block'>
 				<img
-					src='../src/assets/virtual-cover.jpg'
+					src={virtual}
 					alt='virtual care'
 					className='h-screen'
 				/>
