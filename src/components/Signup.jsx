@@ -68,7 +68,7 @@ const Signup = () => {
 	return (
 		<div className='grid grid-cols-1 md:grid-cols-2'>
 			<div className='hidden lg:block'>
-				<img src={"/src/img/virtual-cover.jpg"} alt='virtual care' className='h-screen' />
+				<img src="../img/virtual-cover.jpg" alt='virtual care' className='h-screen' />
 			</div>
 			<div className='flex flex-col pt-10 lg:pt-4 px-4 lg:px-24 '>
 				<form onSubmit={handleSubmit(handleSignup)}>
