@@ -29,8 +29,7 @@
 
  
 ## About The Project
-
-This an appointment booking system for a virtual care website using Firebase, React, and Tailwind CSS. It allows client to book appointment when it is convient for them.
+This is an appointment booking system for a virtual care website using Firebase, React, and Tailwind CSS. It allows clients to book appointments when it is convenient for them.
 
 
 ### Key Features
