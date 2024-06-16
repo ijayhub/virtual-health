@@ -25,14 +25,14 @@ const Book = () => {
 					Schedule an Appointment With a <br /> Skilled Mental Health Nurse.
 				</h3>
 				<p className='text-justify mb-3 '>
-					Book an online session with our experienced mental health nurse, PhD
-					Nurse Nkechi Ufondu, for personalized support. With virtual
-					consultations, receive expert guidance from the comfort of your own
-					space. Take the first step towards better mental health today.
+					Feeling overwhelmed? Dr. Nkechi Ufondu, DNP, can help. Get
+					personalized mental health support online, from the comfort of your
+					own home. Virtual consultations make it easy to take the first step
+					towards a happier, healthier you.
 				</p>
 				<Link to='/contact'>
 					<div className='btnBook'>
-						<Button className='bookBtn' value='Book Appointment'/>
+						<Button className='bookBtn' value='Book Appointment' />
 					</div>
 				</Link>
 			</div>

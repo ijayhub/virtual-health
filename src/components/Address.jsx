@@ -17,7 +17,7 @@ const data = [
 	{
 		id: 3,
 		title: 'Email Address',
-		description: 'NLUfondu@nlhealthcare.com',
+		description: 'n_ufondu@yahoo.com',
 		icon: <FaEnvelopeOpen />,
 	},
 ];

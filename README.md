@@ -105,6 +105,6 @@ You may also see any lint errors in the console.
 
 ## Demonstration
 
-* [Hosted Link]()
+* [demo]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
