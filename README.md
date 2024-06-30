@@ -42,8 +42,6 @@ This is an appointment booking system for a virtual care website using Firebase,
 
 **Backend (Firebase):**
 
-- I utilized Firebase Firestore to design a secure database schema for storing patient information and appointment details.
-
 - I implemented functionalities using Firebase Authentication to allow patients to register, sign in, and manage their appointments.
 
 **Frontend (React):**
